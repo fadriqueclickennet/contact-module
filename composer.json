@@ -1,0 +1,35 @@
+{
+    "name": "fadriqueclickennet/contact-module",
+    "description": "Modulo de Contacto para Clickennet CMS",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1.3",
+        "composer/installers": "~1.0",
+        "fadriqueclickennet/core-module": "dev-master",
+        "fadriqueclickennet/translation-module": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.5",
+        "orchestra/testbench": "~3.8.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Contact\\Tests\\": "Tests",
+            "Modules\\Contact\\": ".",
+            "Modules\\": "Modules/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "fadriqueclickennet",
+            "email": "fadriqueclickennet@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Modules\\Contact\\": ""
+        }
+    }
+}

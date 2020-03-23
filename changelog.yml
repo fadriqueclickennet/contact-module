@@ -1,0 +1,5 @@
+url: https://github.com/fadriqueclickennet/contact-module
+versions:
+    "1.0":
+        added:
+            - laravel 5.8 suport
